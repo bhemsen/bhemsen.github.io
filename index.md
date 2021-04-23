@@ -84,38 +84,69 @@ Subdevice #0: subdevice #0
 [Here i found this solution](https://github.com/guussie/PiDS/wiki/09.-How-to-make-various-DACs-work)
 
 
-### Getting Spotify started
+### Get Spotify running
 
 To get spotify running is easy.
+```markdown
+curl -sL https://dtcooper.github.io/raspotify/install.sh | sh
+```
 
+go ahead 
+```markdown
+sudo aptitude install alsa-utils
+sudo modprobe snd_bcm2835
+sudo amixer cset numid=3 1
+sudo alsactl store
+```
 
+Now you need to set the volume. Just use this program.
+
+```markdown
+alsamixer
+```
+
+Now you just need to tell spotify which device it should use. Therefor use
+```markdown
+aplay -l
+```
+to see in which position your soundcard is. Normally it should be listed as Card 2
+
+Now tell Spotify the device number
+```markdown
+sudo nano /etc/default/raspotify
+```
+
+Add this to the file
+```markdown
+OPTIONS="--device hw:2,0"
+```
+Save the file (Ctrl-X, Y, Enter)
+
+The first number is for the device the second for the subdevice. As this Card has no subdevices use 0
+**Note:** The numbers function like a Position in an array so the first device has the position 0. In my case the soundcard is at position 2. This can be different in your system, so please be shure you don't skip the previous step 
+
+Last step is to restart the service
+```markdown
+sudo service raspotify restart
+```
+
+### Play music
+
+**Important:** You need Spotify Premium to use this feature. Also make shure the device you use Spotify on and the pi are in the same network
+
+1. Connect the Soundcart to your Hifi-System
+2. Start Spotify on your device e.g. Smartphone
+3. Choose a song and play it
+4. Now you have the choice on which device in the Network it should play
+5. Choose raspotify
+6. Enjoy
 
 [Here i found this tutorial](https://strobelstefan.org/2020/05/06/spotify-ueber-den-raspberry-pi-abspielen/)
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bhemsen/bhemsen.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Thank you 
+[STEFAN'S WEBLOG](https://strobelstefan.org/2020/05/06/spotify-ueber-den-raspberry-pi-abspielen/) and [guussie](https://github.com/guussie) for providung this information to me. 
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+I hope this will help all those, who desperatly searching for help. If something is not clear, just write me message. Even though i can not guarantee that I can help I will try!
+gl hf

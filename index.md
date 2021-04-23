@@ -2,6 +2,8 @@
 
 As i got my Pifi DAC+ i had some trouble get it running, not using a Distro like Volumino. After lots of grinding through forums and getting seriously annoyed i finally made it. To prevent you from having the same experience, i decided to gather the information i found here. 
 
+[]
+
 ### My Goal
 
 Get Spotify running an my Raspberry Pi and use Pifi DAC+ as audio-output
@@ -109,7 +111,7 @@ Now you just need to tell spotify which device it should use. Therefor use
 ```markdown
 aplay -l
 ```
-to see in which position your soundcard is. Normally it should be listed as Card 2
+To see in which position your soundcard is. Normally it should be listed as Card 2
 
 Now tell Spotify the device number
 ```markdown

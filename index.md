@@ -2,7 +2,6 @@
 
 As i got my Pifi DAC+ i had some trouble get it running, not using a Distro like Volumino. After lots of grinding through forums and getting seriously annoyed i finally made it. To prevent you from having the same experience, i decided to gather the information i found here. 
 
-[]
 
 ### My Goal
 

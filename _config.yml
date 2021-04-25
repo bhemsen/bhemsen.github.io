@@ -1,6 +1,7 @@
 theme: jekyll-theme-minimal
 name: Bendix Hemsen
 title: Pifi DAC+
+title-img: raspberry.png
 description: Short tutorial to get your Raspberry Pi (Raspbian) use your Pifi DAC+ Soundcard as audio outout
 use_logo: true
 logo: pifi.jpg

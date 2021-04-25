@@ -1,5 +1,21 @@
 theme: jekyll-theme-minimal
+name: Bendix Hemsen
 title: Pifi DAC+
 description: Short tutorial to get your Raspberry Pi (Raspbian) use your Pifi DAC+ Soundcard as audio outout
 use_logo: true
 logo: pifi.jpg
+
+google_site_verification :
+bing_site_verification   :
+alexa_site_verification  :
+yandex_site_verification :
+
+# Site Author
+author:
+  name             : Bendix Hemsen
+  bio              : Hi there! I'm Bendix Hemsen, Frontend Developer
+  location         : Germany
+  employer         : Medienwerft GmbH
+  email            : bendix.hemsen@gmail.com
+  github           : bhemsen
+  stackoverflow    : https://stackoverflow.com/users/15760217/bendix-hemsen

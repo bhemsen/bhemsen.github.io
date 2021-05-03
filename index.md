@@ -19,7 +19,7 @@ Get Spotify running an my Raspberry Pi and use Pifi DAC+ as audio-output
 
 ### Note
 
-I want tell you how to get startet with your Pi. There are lots of tutorials out there e.g. [this](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up)
+I want tell you how to get startet with your Pi. There are lots of tutorials out there e.g. [this nice Turorial](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up)
 
 
 ### Install your Soundcard

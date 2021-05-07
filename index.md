@@ -16,12 +16,12 @@ Get Spotify running an my Raspberry Pi and use Pifi DAC+ as audio-output
 
 ### My Software
 1. I used MacOS and balenaEtcher to burn the Image to my SD Card
-2. [Raspian OS](https://www.raspberrypi.org/software/operating-systems/), i use "Raspberry Pi OS with desktop March 4th 2021"
-3. [raspotify](https://github.com/dtcooper/raspotify) 
+2. [Raspian OS](https://www.raspberrypi.org/software/operating-systems/){:target="_blank" rel="noopener"}, i use "Raspberry Pi OS with desktop March 4th 2021"
+3. [raspotify](https://github.com/dtcooper/raspotify){:target="_blank" rel="noopener"} 
 
 ### Note
 
-I want tell you how to get startet with your Pi. There are lots of tutorials out there e.g. [this nice Turorial](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up)
+I want tell you how to get startet with your Pi. There are lots of tutorials out there e.g. [this nice Turorial](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up){:target="_blank" rel="noopener"}
 
 
 ### Install your Soundcard
@@ -84,7 +84,7 @@ Subdevices: 0/1
 Subdevice #0: subdevice #0
 ```
 
-[Here i found this solution](https://github.com/guussie/PiDS/wiki/09.-How-to-make-various-DACs-work)
+[Here i found this solution](https://github.com/guussie/PiDS/wiki/09.-How-to-make-various-DACs-work){:target="_blank" rel="noopener"}
 
 
 ### Get Spotify running
@@ -144,10 +144,10 @@ sudo service raspotify restart
 5. Choose raspotify
 6. Enjoy
 
-[Here i found this tutorial](https://strobelstefan.org/2020/05/06/spotify-ueber-den-raspberry-pi-abspielen/)
+[Here i found this tutorial](https://strobelstefan.org/2020/05/06/spotify-ueber-den-raspberry-pi-abspielen/){:target="_blank" rel="noopener"}
 
 ### Thank you 
-[STEFAN'S WEBLOG](https://strobelstefan.org/2020/05/06/spotify-ueber-den-raspberry-pi-abspielen/) and [guussie](https://github.com/guussie) for providung this information to me. 
+[STEFAN'S WEBLOG](https://strobelstefan.org/2020/05/06/spotify-ueber-den-raspberry-pi-abspielen/){:target="_blank" rel="noopener"} and [guussie](https://github.com/guussie){:target="_blank" rel="noopener"} for providung this information to me. 
 
 ### Support or Contact
 
@@ -155,4 +155,4 @@ I hope this will help all those, who desperatly searching for help. If something
 gl hf
 
 
-[Impressum](impressum.html)
+[Impressum](impressum.html){:target="_blank" rel="noopener"}

@@ -153,3 +153,6 @@ sudo service raspotify restart
 
 I hope this will help all those, who desperatly searching for help. If something is not clear, just write me message. Even though i can not guarantee that I can help I will try!
 gl hf
+
+
+[Impressum](impressum.html)

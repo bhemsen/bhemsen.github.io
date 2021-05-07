@@ -1,3 +1,4 @@
+markdown: kramdown
 theme: jekyll-theme-minimal
 name: Bendix Hemsen
 title: Pifi DAC+
